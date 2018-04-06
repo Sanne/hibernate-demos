@@ -8,8 +8,8 @@
     "annotations": {
       "description": "Infinispan 9 (Persistent)",
       "iconClass": "icon-infinispan",
-      "tags": "java,database,datagrid,jboss",
-      "openshift.io/display-name": "Infinispan 9 (Persistent)",
+      "tags": "java,database,datagrid,jboss,infinispan",
+      "openshift.io/display-name": "Infinispan 9.2 (Persistent)",
       "openshift.io/documentation-url": "http://infinispan.org/documentation/",
       "openshift.io/long-description": "This template provides a standalone Infinispan server (a high performance, scalable, key/value data grid solution) with persistence enabled. In order to provide custom configuration, please update the $ApplicationName-configuration ConfigMap and restart a Pod.",
       "openshift.io/provider-display-name": "Red Hat, Inc.",
@@ -367,8 +367,8 @@
                 ],
                 "resources": {
                   "requests": {
-                    "cpu": "0.5",
-                    "memory": "512Mi"
+                    "cpu": "2",
+                    "memory": "1G"
                   }
                 }
               }
